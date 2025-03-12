@@ -27,7 +27,8 @@ fetch(api)
     price.innerText="$"+item.price
     // desc section
     const desc = document.createElement("p");
-    desc.innerText=item.title; 
+    desc.innerText=item.title;
+    desc.style.paddingTop="10px" 
 
     // category  section
     const category = document.createElement("h5");
